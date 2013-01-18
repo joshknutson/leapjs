@@ -437,7 +437,7 @@ Connection.prototype.handleClose = function() {
 };
 
 Connection.prototype.createSocket = function() {
-  this.socket = new WebSocket("ws://"+window.location.host+"":6437");
+  this.socket = new WebSocket("ws://"+window.location.host+":6437");
 }
 
 Connection.prototype.connect = function() {
